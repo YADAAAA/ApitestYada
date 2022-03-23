@@ -1,7 +1,7 @@
 GET http://localhost:3000/subscribers
 
 ###
-GET http://localhost:3000/subscribers/1556
+GET http://localhost:3000/subscribers/623aa4ba73b324a48781c64a
 
 ###
 POST http://localhost:3000/subscribers
@@ -13,11 +13,22 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/subscribers/1556
+DELETE http://localhost:3000/subscribers/623aa8a073b324a48781c65c
 
 ###
-PATCH http://localhost:3000/subscribers
+PATCH http://localhost:3000/subscribers/623aa4ba73b324a48781c64a
 
 {
-    "subscribedToChannel": "Camping"
+    "subscribedToChannel": "Slepping"
 }
+
+###
+PATCH http://localhost:3000/subscribers/623aa4ba73b324a48781c64a
+
+{
+    "name": "Homer Simoson",
+    "subscribedToChannel": "Beers"
+}
+
+###
+GET http://localhost:3000/subscribers
