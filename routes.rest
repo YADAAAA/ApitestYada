@@ -2,3 +2,22 @@ GET http://localhost:3000/subscribers
 
 ###
 GET http://localhost:3000/subscribers/1556
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Anirach Mingkhwan",
+    "subscribedToChannel": "Eat and Travel"
+}
+
+###
+DELETE http://localhost:3000/subscribers/1556
+
+###
+PATCH http://localhost:3000/subscribers
+
+{
+    "subscribedToChannel": "Camping"
+}
