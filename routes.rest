@@ -23,7 +23,7 @@ PATCH http://localhost:3000/subscribers/623aa4ba73b324a48781c64a
 }
 
 ###
-PATCH http://localhost:3000/subscribers/623aa4ba73b324a48781c64a
+PATCH http://apitestyada.app.ruk-com.cloud/subscribers
 
 {
     "name": "Homer Simoson",
@@ -31,4 +31,4 @@ PATCH http://localhost:3000/subscribers/623aa4ba73b324a48781c64a
 }
 
 ###
-GET http://localhost:3000/subscribers
+GET http://apitestyada.app.ruk-com.cloud/subscribers
